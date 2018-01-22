@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="3"
+    android:padding="5dp"
+    android:background="@color/backgroundcoloroflistview"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:hint="magnitude"
+
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:background="@drawable/drawable_circle"
+        android:id="@+id/list_magnitude"/>
+
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:layout_weight="1.6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Offset Place"
+        android:gravity="center_vertical"
+        android:id="@+id/list_offSetLocation"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint=" Main Place"
+        android:gravity="center_vertical"
+        android:layout_weight="1.5"
+        android:id="@+id/list_primaryLocation"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="date"
+        android:gravity="center_vertical"
+        android:id="@+id/list_time"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="date"
+            android:gravity="center_vertical"
+            android:id="@+id/list_date"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
