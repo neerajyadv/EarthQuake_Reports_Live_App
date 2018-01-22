@@ -7,6 +7,6 @@ a) Use of AsyncTask class to start a background thread.
 
 b) json paring
 
-c) use of api to extract data
+c) use of api 
 
 Note- This app was created during online course on UDACITY.
