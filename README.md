@@ -9,4 +9,7 @@ b) json paring
 
 c) use of api 
 
-Note- This app was created during online course on UDACITY.
+
+
+
+![s80210-222255](https://user-images.githubusercontent.com/35502764/36554604-c23ed5ca-1825-11e8-8e1f-ad42bc4540ce.jpg)
